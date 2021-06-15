@@ -58,6 +58,7 @@
     <div class="video_box">
       <video autoplay loop muted style="display: block;
     height:100vh;
+    width:100%;
     margin-left: auto;
     margin-right: auto
 ">
@@ -231,8 +232,8 @@
 
 
       <svg class="progress-ring" width="700" height="700">
-        <circle class="progress-ring__circle" stroke="#5B1BDB" stroke-width="7" fill="transparent" r="320" cx="350"
-          cy="350" />
+        <circle class="progress-ring__circle circle-full" stroke="#5B1BDB" stroke-width="7" fill="transparent" r="320" cx="350" cy="350"/>
+        <circle class="progress-ring__circle circle-700" stroke="#5B1BDB" stroke-width="7" fill="transparent" r="240" cx="280" cy="320"/>
       </svg>
 
       <input id="circle-progress" value="33" type="number" step="5" min="0" max="100" placeholder="progress">

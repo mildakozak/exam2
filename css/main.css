@@ -1261,6 +1261,12 @@ input {
   color: #ECE9E1;
   text-decoration: underline;
 }
+.circle-700{
+  display: none;
+}
+.circle-full{
+  display: block;
+}
 
 /* END OF CSS CODE FOR "OUR STORY" PAGE: Footer (Coded by Vlada) */
 
@@ -1514,6 +1520,15 @@ input {
 }
 
 @media only screen and (max-width: 700px) {
+  .circle-icon{
+    display: none;
+  }
+  .circle-700{
+    display: block;
+  }
+  .circle-full{
+    display: none;
+  }
   .side-navigation{
     display: none;
   }
@@ -1679,6 +1694,9 @@ input {
 }
 
 @media only screen and (max-width: 520px) {
+  .circle-700{
+    display: none;
+  }
   .background_whoweare {
     position: relative;
     background: url("../images/texture/bg1.png") no-repeat center center fixed;
